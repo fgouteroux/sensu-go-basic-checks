@@ -1,0 +1,378 @@
+mackerel-check-plugins (0.34.1-1.v2) stable; urgency=low
+
+  * Bump github.com/lib/pq from 1.3.0 to 1.5.2 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/359>
+  * ignore diffs of go.mod and go.sum (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/363>
+  * Bump github.com/shirou/gopsutil from 2.20.3+incompatible to 2.20.4+incompatible (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/358>
+  * Bump github.com/go-ldap/ldap/v3 from 3.1.8 to 3.1.10 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/360>
+  * Bump github.com/fsouza/go-dockerclient from 1.6.3 to 1.6.5 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/355>
+  * Bump github.com/aws/aws-sdk-go from 1.29.30 to 1.30.9 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/351>
+  * Bump github.com/shirou/gopsutil from 2.20.2+incompatible to 2.20.3+incompatible (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/347>
+  * Bump github.com/go-ldap/ldap/v3 from 3.1.7 to 3.1.8 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/346>
+  * Add documents for testing (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/348>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 14 May 2020 06:06:47 +0000
+
+mackerel-check-plugins (0.34.0-1.v2) stable; urgency=low
+
+  * Bump github.com/aws/aws-sdk-go from 1.29.24 to 1.29.30 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/342>
+  * Bump github.com/beevik/ntp from 0.2.0 to 0.3.0 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/340>
+  * Bump github.com/aws/aws-sdk-go from 1.29.14 to 1.29.24 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/339>
+  * [check-redis] Add password support for check-redis (by n-rodriguez)
+    <https://github.com/mackerelio/go-check-plugins/pull/338>
+  * Bump github.com/aws/aws-sdk-go from 1.28.7 to 1.29.14 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/336>
+  * Bump github.com/shirou/gopsutil from 2.20.1+incompatible to 2.20.2+incompatible (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/335>
+  * Bump github.com/fsouza/go-dockerclient from 1.6.0 to 1.6.3 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/332>
+  * Bump github.com/stretchr/testify from 1.4.0 to 1.5.1 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/331>
+  * Bump github.com/go-ldap/ldap/v3 from 3.1.5 to 3.1.7 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/329>
+  * [check-aws-cloudwatch-logs] Added option to specify AWS API retry count (by masahide)
+    <https://github.com/mackerelio/go-check-plugins/pull/334>
+  * [check-aws-cloudwatch-logs] fix removing of quote (") implicitly from few options (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/330>
+  * Bump github.com/shirou/gopsutil from 2.19.12+incompatible to 2.20.1+incompatible (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/323>
+  * rename: github.com/motemen/gobump -> github.com/x-motemen/gobump (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/322>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Fri, 03 Apr 2020 03:01:04 +0000
+
+mackerel-check-plugins (0.33.1-1.v2) stable; urgency=low
+
+  * Bump github.com/aws/aws-sdk-go from 1.27.0 to 1.28.7 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/319>
+  * [check-aws-cloudwatch-logs] Use "errors" instead of "github.com/pkg/errors" (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/318>
+  * Bump github.com/shirou/gopsutil from 2.19.11+incompatible to 2.19.12+incompatible (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/312>
+  * Bump github.com/aws/aws-sdk-go from 1.26.7 to 1.27.0 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/313>
+  * [check-log] When specified multiple exclude pattern, perform search that excludes all conditions. (by tukaelu)
+    <https://github.com/mackerelio/go-check-plugins/pull/294>
+  * Bump github.com/aws/aws-sdk-go from 1.26.5 to 1.26.7 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/310>
+  * Bump github.com/stretchr/testify from 1.3.0 to 1.4.0 (by dependabot-preview[bot])
+    <https://github.com/mackerelio/go-check-plugins/pull/309>
+  * add .dependabot/config.yml (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/307>
+  * refactor Makefile and update dependencies (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/306>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 22 Jan 2020 07:16:48 +0000
+
+mackerel-check-plugins (0.33.0-1.v2) stable; urgency=low
+
+  * [check-log] Make building the error lines efficiently (by ygurumi)
+    <https://github.com/mackerelio/go-check-plugins/pull/304>
+  * [check-log] Ignore broken/unexpected json on reading state (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/302>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 21 Nov 2019 05:59:48 +0000
+
+mackerel-check-plugins (0.32.1-1.v2) stable; urgency=low
+
+  * Build with Go 1.12.12
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 24 Oct 2019 07:31:36 +0000
+
+mackerel-check-plugins (0.32.0-1.v2) stable; urgency=low
+
+  * [doc]add repository policy (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/300>
+  * add --user to check-http (by lausser)
+    <https://github.com/mackerelio/go-check-plugins/pull/297>
+  * Update modules (by ne-sachirou)
+    <https://github.com/mackerelio/go-check-plugins/pull/298>
+  * [check-procs] If more than one pattern is specified, find processes that meet any of the conditions. (by tukaelu)
+    <https://github.com/mackerelio/go-check-plugins/pull/293>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 02 Oct 2019 06:50:03 +0000
+
+mackerel-check-plugins (0.31.1-1.v2) stable; urgency=low
+
+  * Build with Go 1.12 (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/292>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Mon, 22 Jul 2019 13:11:21 +0900
+
+mackerel-check-plugins (0.31.0-1.v2) stable; urgency=low
+
+  * Support go modules (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/289>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Tue, 11 Jun 2019 03:15:20 +0000
+
+mackerel-check-plugins (0.30.0-1.v2) stable; urgency=low
+
+  * [check-aws-cloudwatch-logs] make handling a state file more safe (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/286>
+  * [check-log] make handling a state file more safe (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/285>
+  * [check-ldap] Update go-ldap to v3 (by nonylene)
+    <https://github.com/mackerelio/go-check-plugins/pull/284>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 08 May 2019 07:37:39 +0000
+
+mackerel-check-plugins (0.29.0-1.v2) stable; urgency=low
+
+  * Add check-ping (by a-know)
+    <https://github.com/mackerelio/go-check-plugins/pull/280>
+  * [ntservice] Enable to specify service name to exclude from match (by a-know)
+    <https://github.com/mackerelio/go-check-plugins/pull/279>
+  * Add NTP stratum check to check-ntpoffset (by EijiSugiura, susisu)
+    <https://github.com/mackerelio/go-check-plugins/pull/278>
+  * [check-http] add --proxy option (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/277>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 27 Mar 2019 06:46:41 +0000
+
+mackerel-check-plugins (0.28.0-1.v2) stable; urgency=low
+
+  * Improve READMEs (by a-know)
+    <https://github.com/mackerelio/go-check-plugins/pull/274>
+  * added support for netbsd on check-load (by paulbsd)
+    <https://github.com/mackerelio/go-check-plugins/pull/273>
+  * [check-cert-file] improve README (by a-know)
+    <https://github.com/mackerelio/go-check-plugins/pull/272>
+  *  [check-log][check-windows-eventlog] Improve atomic write (by itchyny)
+    <https://github.com/mackerelio/go-check-plugins/pull/270>
+  * [check-log]stop reading logs on SIGTERM (by lufia)
+    <https://github.com/mackerelio/go-check-plugins/pull/268>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 13 Feb 2019 08:01:26 +0000
+
+mackerel-check-plugins (0.27.0-1.v2) stable; urgency=low
+
+  * [check-disk] Do not check inodes% along with disk% (by susisu)
+    <https://github.com/mackerelio/go-check-plugins/pull/266>
+  * [check-disk] skip checks if there are no inodes (by susisu)
+    <https://github.com/mackerelio/go-check-plugins/pull/265>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 10 Jan 2019 15:15:09 +0900
+
+mackerel-check-plugins (0.26.0-1.v2) stable; urgency=low
+
+  * [check-http] Support --connect-to option (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/263>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Mon, 26 Nov 2018 15:16:57 +0900
+
+mackerel-check-plugins (0.25.0-1.v2) stable; urgency=low
+
+  * [check-redis] add replication subcommand (by yuuki)
+    <https://github.com/mackerelio/go-check-plugins/pull/261>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Mon, 12 Nov 2018 11:29:18 +0900
+
+mackerel-check-plugins (0.24.0-1.v2) stable; urgency=low
+
+  * add User-Agent header to http check plugins (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/257>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 17 Oct 2018 10:52:19 +0900
+
+mackerel-check-plugins (0.23.0-1.v2) stable; urgency=low
+
+  * add aws-cloudwatch-logs (by syou6162)
+    <https://github.com/mackerelio/go-check-plugins/pull/255>
+  * Add CloudWatch Logs plugin (by itchyny)
+    <https://github.com/mackerelio/go-check-plugins/pull/248>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 27 Sep 2018 11:46:55 +0900
+
+mackerel-check-plugins (0.22.1-1.v2) stable; urgency=low
+
+  * [check-log] Trace an old file after logrotation with the inode number  (by yuuki)
+    <https://github.com/mackerelio/go-check-plugins/pull/250>
+  * [check-log] Jsonize status file (by yuuki)
+    <https://github.com/mackerelio/go-check-plugins/pull/252>
+  * Use Go 1.11 (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/253>
+  * [check-http] Add --max-redirects option (by nonylene)
+    <https://github.com/mackerelio/go-check-plugins/pull/249>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 13 Sep 2018 14:18:01 +0900
+
+mackerel-check-plugins (0.22.0-1.v2) stable; urgency=low
+
+  * Add check-smtp (by shiimaxx)
+    <https://github.com/mackerelio/go-check-plugins/pull/243>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 30 Aug 2018 10:49:16 +0900
+
+mackerel-check-plugins (0.21.2-1.v2) stable; urgency=low
+
+  * modify message check-windows-eventlog (by daiksy)
+    <https://github.com/mackerelio/go-check-plugins/pull/241>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 25 Jul 2018 12:49:55 +0900
+
+mackerel-check-plugins (0.21.1-1.v2) stable; urgency=low
+
+  * [check-http] Set Host header via req.Host (by nonylene)
+    <https://github.com/mackerelio/go-check-plugins/pull/239>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 20 Jun 2018 10:59:32 +0900
+
+mackerel-check-plugins (0.21.0-1.v2) stable; urgency=low
+
+  * add check-ssl-cert (by Songmu)
+    <https://github.com/mackerelio/go-check-plugins/pull/34>
+  * Add feature use ntp server (by netmarkjp)
+    <https://github.com/mackerelio/go-check-plugins/pull/237>
+  * [check-mysql] add unix socket option (by sugy)
+    <https://github.com/mackerelio/go-check-plugins/pull/236>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 07 Jun 2018 14:28:38 +0900
+
+mackerel-check-plugins (0.20.0-1.v2) stable; urgency=low
+
+  * [check-log] Add option to suppress pattern display (by k-hal)
+    <https://github.com/mackerelio/go-check-plugins/pull/234>
+  * [check-windows-eventlog] fix README - Some of the listed EVENTTYPEs can not be detected as alerts (by a-know)
+    <https://github.com/mackerelio/go-check-plugins/pull/233>
+  * [check-procs][check-cert-file] Fix duplicated output of usage with --help argument (by itchyny)
+    <https://github.com/mackerelio/go-check-plugins/pull/231>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 16 May 2018 23:23:23 +0900
+
+mackerel-check-plugins (0.19.0-1.v2) stable; urgency=low
+
+  * add check-ldap (by taku-k)
+    <https://github.com/mackerelio/go-check-plugins/pull/227>
+  * [check-http] add regexp pattern option (by taku-k)
+    <https://github.com/mackerelio/go-check-plugins/pull/225>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 28 Mar 2018 16:56:52 +0900
+
+mackerel-check-plugins (0.18.0-1.v2) stable; urgency=low
+
+  * [check-http] add host header option (by taku-k)
+    <https://github.com/mackerelio/go-check-plugins/pull/224>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 15 Mar 2018 10:38:16 +0900
+
+mackerel-check-plugins (0.17.1-1.v2) stable; urgency=low
+
+  * [check-log]improve skip bytes when file size is zero (by hayajo)
+    <https://github.com/mackerelio/go-check-plugins/pull/222>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 01 Mar 2018 14:14:59 +0900
+
+mackerel-check-plugins (0.17.0-1.v2) stable; urgency=low
+
+  * [check-procs] fix `getProcs` error handling (by mechairoi)
+    <https://github.com/mackerelio/go-check-plugins/pull/216>
+  * [ntpoffset] Refine NTP daemon detection and add tests (by Songmu)
+    <https://github.com/mackerelio/go-check-plugins/pull/219>
+  * [check-tcp] add -W option (by dozen)
+    <https://github.com/mackerelio/go-check-plugins/pull/212>
+  * [check-procs] Error handling is required (by mechairoi)
+    <https://github.com/mackerelio/go-check-plugins/pull/204>
+  * Avoid race condition in checkhttp.Run() (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/214>
+  * [check-http] Expose checkhttp.Run due for using check-http as a library (by aereal)
+    <https://github.com/mackerelio/go-check-plugins/pull/210>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 08 Feb 2018 10:50:03 +0900
+
+mackerel-check-plugins (0.16.0-1.v2) stable; urgency=low
+
+  * Setting password via environment variable (by hayajo)
+    <https://github.com/mackerelio/go-check-plugins/pull/209>
+  * update rpm-v2 task for building Amazon Linux 2 package (by hayajo)
+    <https://github.com/mackerelio/go-check-plugins/pull/208>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Tue, 23 Jan 2018 11:25:23 +0900
+
+mackerel-check-plugins (0.15.0-1.v2) stable; urgency=low
+
+  * [check-mysql] add readonly subcommand (by ichirin2501)
+    <https://github.com/mackerelio/go-check-plugins/pull/205>
+  * [uptime] use go-osstat/uptime instead of golib/uptime for getting more accurate uptime (by Songmu)
+    <https://github.com/mackerelio/go-check-plugins/pull/206>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 10 Jan 2018 16:17:59 +0900
+
+mackerel-check-plugins (0.14.1-1.v2) stable; urgency=low
+
+  * fix check-disk options: -x, -X, -p, -N (by plaster)
+    <https://github.com/mackerelio/go-check-plugins/pull/200>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 26 Oct 2017 11:12:55 +0900
+
+mackerel-check-plugins (0.14.0-1.v2) stable; urgency=low
+
+  * [check-log]Show matched filenames when we use `--return` option (by syou6162)
+    <https://github.com/mackerelio/go-check-plugins/pull/197>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Thu, 12 Oct 2017 15:21:52 +0900
+
+mackerel-check-plugins (0.13.0-1.v2) stable; urgency=low
+
+  * build with Go 1.9 (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/195>
+  * [check-log] Add check-first option and skip the log file on the first run on default (by edangelion)
+    <https://github.com/mackerelio/go-check-plugins/pull/190>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 27 Sep 2017 12:11:06 +0900
+
+mackerel-check-plugins (0.12.0-1.v2) stable; urgency=low
+
+  * add check-disk to package (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/192>
+  * add check-disk (by edangelion)
+    <https://github.com/mackerelio/go-check-plugins/pull/178>
+  * [check-postgresql] Add dbname to postgresql-setting (by edangelion)
+    <https://github.com/mackerelio/go-check-plugins/pull/189>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 23 Aug 2017 12:29:40 +0900
+
+mackerel-check-plugins (0.11.1-1.v2) stable; urgency=low
+
+  * Remove check-ssh binary (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/186>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 02 Aug 2017 11:08:02 +0900
+
+mackerel-check-plugins (0.11.0-1.v2) stable; urgency=low
+
+  * [check-http] Add -i flag to specify source IP (by mattn)
+    <https://github.com/mackerelio/go-check-plugins/pull/184>
+  * [check-http] Add -s option to map HTTP status (by mattn)
+    <https://github.com/mackerelio/go-check-plugins/pull/183>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 26 Jul 2017 14:17:09 +0900
+
+mackerel-check-plugins (0.10.4-1.v2) stable; urgency=low
+
+  * v2 packages (rpm and deb) (by Songmu)
+    <https://github.com/mackerelio/go-check-plugins/pull/175>
+  * [check-log]  When specified multiple pattern, perform search that satisfies all conditions (by a-know)
+    <https://github.com/mackerelio/go-check-plugins/pull/174>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Wed, 07 Jun 2017 11:40:55 +0900
+
+mackerel-check-plugins (0.10.3-1.v2) stable; urgency=low
+
+  * [ntpoffset] support chronyd (by Songmu)
+    <https://github.com/mackerelio/go-check-plugins/pull/166>
+  * [check-ssh] fix the problem that check-ssh cannot invoke SSH connection (by astj)
+    <https://github.com/mackerelio/go-check-plugins/pull/171>
+
+ -- mackerel <mackerel-developers@hatena.ne.jp>  Tue, 16 May 2017 18:01:28 +0900

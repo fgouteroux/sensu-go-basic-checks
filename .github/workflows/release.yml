@@ -1,0 +1,27 @@
+name: releaser
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  releaser:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Unshallow
+        run: git fetch --prune --unshallow
+      - name: Set up Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.13.x
+      - name: Build sensu linux asset
+        run: ./linux_build.sh
+      - name: Build sensu windows asset
+        run: ./windows_build.sh
+      - name: Upload the artifacts
+        run: ./upload.sh 'sensu-go-basic-checks_*'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

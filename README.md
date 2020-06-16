@@ -7,6 +7,7 @@ Sources:
 - [sensu-go-cpu-check](https://github.com/asachs01/sensu-go-cpu-check)
 - [sensu-go-memory-check](https://github.com/asachs01/sensu-go-memory-check)
 - [sensu-go-systemd-check](https://github.com/sardinasystems/sensu-go-systemd-check)
+- [sensu-go-basic-metrics](https://github.com/fgouteroux/sensu-go-basic-metrics)
 
 See individual plugin documentation in the upstream repository.
 
@@ -29,6 +30,7 @@ See individual plugin documentation in the upstream repository.
 - [check-tcp](./upstream/go-check-plugins/check-tcp/README.md)
 - [check-uptime](./upstream/go-check-plugins/check-uptime/README.md)
 - [check-windows-eventlog](./upstream/go-check-plugins/check-windows-eventlog/README.md)
+- [metrics](./upstream/sensu-go-basic-metrics/README.md)
 
 ## Release build
 

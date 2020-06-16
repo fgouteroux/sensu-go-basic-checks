@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PKG_NAME="sensu-go-basic-checks"
-PGK_VERSION="0.0.1"
+PGK_VERSION="0.0.2"
 
 ASSET_FILE=${PKG_NAME}_${PGK_VERSION}_linux_amd64.tar.gz
 CHECKSUM_FILE=${PKG_NAME}_${PGK_VERSION}_sha512-checksums.txt
@@ -28,6 +28,18 @@ for file in $(ls $WORK_DIR/upstream/); do
 		    	error=1
 		    fi
 		    cd $WORK_DIR
+		done
+	elif [ $file == "sensu-go-basic-metrics" ];
+	then
+		for i in $(ls $WORK_DIR/upstream/$file/linux); do
+			metric_name=metric-$i
+			echo "Building $metric_name"
+			cd $WORK_DIR/upstream/$file/linux/$i
+			go build -o $WORK_DIR/bin/$metric_name main.go
+		    if [ $? -ne 0  ]; then
+			    error=1
+			 fi
+			cd $WORK_DIR
 		done
 	else
 		tmp=${file##sensu-go-}

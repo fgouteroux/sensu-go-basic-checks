@@ -3,9 +3,11 @@ module github.com/asachs01/sensu-go-memory-check
 go 1.12
 
 require (
+	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/coreos/etcd v3.3.10+incompatible
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/echlebek/timeproxy v1.0.0
+	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/gogo/protobuf v1.1.1
 	github.com/golang/protobuf v1.2.0
 	github.com/inconshreveable/mousetrap v1.0.0

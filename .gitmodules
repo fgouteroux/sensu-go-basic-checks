@@ -1,0 +1,15 @@
+[submodule "upstream/go-check-plugins"]
+	path = upstream/go-check-plugins
+	url = https://github.com/mackerelio/go-check-plugins
+[submodule "upstream/sensu-go-cpu-check"]
+	path = upstream/sensu-go-cpu-check
+	url = https://github.com/asachs01/sensu-go-cpu-check
+[submodule "upstream/sensu-go-memory-check"]
+	path = upstream/sensu-go-memory-check
+	url = https://github.com/asachs01/sensu-go-memory-check
+[submodule "upstream/sensu-go-systemd-check"]
+	path = upstream/sensu-go-systemd-check
+	url = https://github.com/sardinasystems/sensu-go-systemd-check
+[submodule "upstream/sensu-go-basic-metrics"]
+	path = upstream/sensu-go-basic-metrics
+	url = https://github.com/fgouteroux/sensu-go-basic-metrics

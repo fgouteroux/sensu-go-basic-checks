@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-go@v1
         with:
           go-version: 1.13.x
+      - name: Init submodule
+        run: git submodule update --init
       - name: Build sensu linux asset
         run: ./linux_build.sh
       - name: Build sensu windows asset

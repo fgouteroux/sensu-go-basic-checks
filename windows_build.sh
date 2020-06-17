@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PKG_NAME="sensu-go-basic-checks"
-PGK_VERSION="0.0.2"
+PGK_VERSION="0.0.3"
 
 ASSET_FILE=${PKG_NAME}_${PGK_VERSION}_windows_amd64.tar.gz
 CHECKSUM_FILE=${PKG_NAME}_${PGK_VERSION}_sha512-checksums.txt

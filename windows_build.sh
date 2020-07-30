@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PKG_NAME="sensu-go-basic-checks"
-PGK_VERSION="0.0.4"
+PGK_VERSION="0.0.5"
 
 ASSET_FILE=${PKG_NAME}_${PGK_VERSION}_windows_amd64.tar.gz
 CHECKSUM_FILE=${PKG_NAME}_${PGK_VERSION}_sha512-checksums.txt
@@ -26,7 +26,7 @@ for file in sensu-go-basic-metrics go-check-plugins sensu-go-cpu-check sensu-go-
 			check_name=check-$i
 		    echo "Building $check_name"
 		    cd $WORK_DIR/upstream/$file/$check_name/
-		    go build -o $WORK_DIR/bin/$check_name main.go
+		    go build -o $WORK_DIR/bin/$check_name.exe main.go
 		    if [ $? -ne 0  ]; then
 		    	error=1
 		    fi
@@ -38,7 +38,7 @@ for file in sensu-go-basic-metrics go-check-plugins sensu-go-cpu-check sensu-go-
 			metric_name=metric-$i
 			echo "Building $metric_name"
 			cd $WORK_DIR/upstream/$file/windows/$i
-			go build -o $WORK_DIR/bin/$metric_name main.go
+			go build -o $WORK_DIR/bin/$metric_name.exe main.go
 		    if [ $? -ne 0  ]; then
 			    error=1
 			 fi
@@ -49,7 +49,7 @@ for file in sensu-go-basic-metrics go-check-plugins sensu-go-cpu-check sensu-go-
 		check_name=check-${tmp%-check}
 		echo "Building $check_name"
 		cd $WORK_DIR/upstream/$file
-		go build -o $WORK_DIR/bin/$check_name main.go
+		go build -o $WORK_DIR/bin/$check_name.exe main.go
 	    if [ $? -ne 0  ]; then
 		    error=1
 		 fi
